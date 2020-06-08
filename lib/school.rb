@@ -1,11 +1,11 @@
 class School
   attr_accessor :roster
 
-  def initialize(kid)
+  def initialize(phil)
     @roster = {} 
   end 
   
-  def add_student(kid, grade)
+  def add_student(name, grade)
     @roster[grade] ||= []
     @roster[grade] << name
   end 
