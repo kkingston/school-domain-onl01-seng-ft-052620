@@ -18,6 +18,7 @@ class School
     hash = {}
       @roster.keys.sort.each do |students|
         hash[students] = @roster[students].sort
-   end
+    end
+    hash
   end 
 end 
